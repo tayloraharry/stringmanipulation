@@ -27,7 +27,7 @@ function reversal(userString) {
     palindrome(revStringEntered, userString);
     return revStringEntered;
 }
-
+ 
 function palindrome(revStringEntered, stringEntered) {
     if (revStringEntered === stringEntered) {
       palindromeValue.value = "yes";
